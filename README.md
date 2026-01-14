@@ -1,16 +1,40 @@
-# fake_website_checker
+# 🔐 TrustCheck AI
 
-A new Flutter project.
+TrustCheck AI is an AI-powered system consisting of a Flutter mobile application and a Chrome browser extension that detects real and fake websites using machine learning. The project aims to protect users from phishing attacks, online scams, and fraudulent websites by providing instant and reliable website verification.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- AI-based classification of websites as real or fake  
+- Flutter mobile app for easy website verification  
+- Chrome extension for real-time detection on Google search results  
+- Machine Learning model built using XGBoost  
+- URL feature analysis for accurate predictions  
+- Clean and user-friendly interface  
+- Fast and lightweight system  
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 How It Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The system uses an XGBoost machine learning model trained on URL-based features such as URL length, HTTPS usage, special characters, subdomains, suspicious keywords, and character entropy.  
+A Flask backend extracts these features from user-provided URLs and returns real-time predictions via an API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- Flutter (Mobile Application)  
+- Python  
+- Flask (Backend API)  
+- XGBoost (Machine Learning Model)  
+- Chrome Extension (JavaScript)  
+
+## 📱 Components
+
+- **Flutter App:** Allows users to check website authenticity, view history, and explore known fake websites.  
+- **Flask Backend:** Handles feature extraction and ML predictions.  
+- **Chrome Extension:** Displays “✅ Real” or “❌ Fake” directly on Google search results.
+
+## 🎯 Purpose
+
+This project is developed to demonstrate the practical use of machine learning, mobile development, and browser-level security in solving real-world cybersecurity problems.
+
+## 📌 Note
+
+This project is intended for educational and portfolio purposes.
