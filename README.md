@@ -1,2 +1,16 @@
-# trustcheck_app
-TrustCheck AI is an AI-powered system with a Flutter app and Chrome extension that detects real and fake websites using machine learning to protect users from phishing and online scams.
+# fake_website_checker
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
